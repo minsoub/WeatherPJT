@@ -61,6 +61,17 @@
     - 해당 디렉토리에서 npm install을 실행해서 node_module을 생성한다.
     - 이미 소스를 내려 받은 후 작업 이후 최신 소스를 내려 받기 위해서는 아래와 같이 수행한다.
     $ git pull https://github.com/minsoub/WeatherPJT.git 
+
+    - Source Committer가 되기 위해서 자신의 계정을 연결한다.
+    $ git cnofig --global user.name="Your account" 
+    $ git config --global user.name="Your account" 
+    $ git init <br>
+    $ git pull https://github.com/minsoub/WeatherPJT.git     
+
+
+    - Source Update
+    $ git commit -a
+    $ git push origin master
     
 # Test
     브라우저에서 
