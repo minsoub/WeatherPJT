@@ -55,9 +55,12 @@
   
     
 # Local에서 작업하기<br>
+    - 최초 작업시 아래를 수행
     - github.com/minsoub/WeatherPJT에서 소스를 내려 받는다
     $ git clone https://github.com/minsoub/WeatherPJT.git 
     - 해당 디렉토리에서 npm install을 실행해서 node_module을 생성한다.
+    - 이미 소스를 내려 받은 후 작업 이후 최신 소스를 내려 받기 위해서는 아래와 같이 수행한다.
+    $ git pull https://github.com/minsoub/WeatherPJT.git 
     
 # Test
     브라우저에서 
@@ -67,5 +70,6 @@
 # 주의사항
     우분투에서 Service를 사용해서 node 서버를 실행시킬 경우 사용자 권한에 유의한다.
     npm으로 모듈 설치시 global로 설치해서 사용자 권한 문제를 해결.
+
   
 
